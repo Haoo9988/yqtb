@@ -73,7 +73,7 @@ class Browser:
         self.click_by_name("submit")
         self.browser.implicitly_wait(10)
         # self.click_by_css("body > div > div.linklist > ul > li:nth-child(1) > a > i")
-        self.click_by_css("body > div.page > form")
+        # self.click_by_css("body > div.page > form")
         self.click_by_css("#rbxx_div > div.weui-btn-area > div > a")
         self.click_by_css(
             "#qrxx_div > div.weui-cells.weui-cells_form > div.weui-cells.weui-cells_checkbox > label > div.weui-cell__hd > i")
